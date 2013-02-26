@@ -581,8 +581,8 @@ CSS 写作注意事项：
 		#toptb a.showmenu { padding-right: 15px; }
 		#toptb a.hover { background-color: #FFF; }
 		#toptb .pipe { float: left; display: none; }
-	#hd { border-bottom: {HEADERBORDER} solid {SPECIALBORDER}; {HEADERBGCODE} }
-		#hd .wp { padding: 10px 0 0; }
+	#hd { border-bottom: {HEADERBORDER} solid {SPECIALBORDER}; }
+		#hd .wp { padding: 10px 0 0; {HEADERBGCODE}; }
 			#diy-tg { float: right; width: 55px; background: url({STATICURL}image/diy/panel-toggle.png) no-repeat 100% 1px; text-indent: -9999px; overflow: hidden; }
 				#diy-tg_menu { position: absolute; margin: -2px 0 0 -1px; padding: 6px 0; width: 72px; height: 48px; background: url({STATICURL}image/diy/panel-toggle-drop.png) no-repeat 0 0; text-align: center; }
 				#diy-tg_menu a { float: none !important; }
